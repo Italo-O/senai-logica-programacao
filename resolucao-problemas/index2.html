@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dando os Primeiros passos em JavaScript</title>
+</head>
+<body>
+    <script>
+       var nome = window.prompt('Qual é o seu nome?')
+       window.alert('Seja bem-vindo ao nosso site '+ nome + '!')
+    </script>
+    <h1>Comentando em HTML5, CSS3 e em Js.</h1>
+    <p>Para comentarmos uma linha em HTML5 usamos < !-- comentário --> <br>
+    Já em CSS3, o comentário é feito por /* comentário */ <br>
+    No JavaScript tem duas maneiras de se comentar, a primeira que pode ser por linha, //comentário,<br> e a segunda que é para comentários com mais de uma linha que é /*comentário*/
+</p>
+<p>O sinal de + no Js. tem a função de <abbr title="ligar(-se), juntar(-se) numa cadeia ou sequência lógica ou orgânica."><strong>concatenação</strong></abbr>, ele também é usado como um sinal de adição.<br> 
+Na concatenação, também podemos usar entre crase a seguinte tag ${o var}.</p>
+<h1>Formatos de Strings</h1>
+    <p>As strings podem ser declaradas com aspas simples '...', ou com aspas duplas "..." para usar templates, subistituimos aspas por crase `...`.
+        <ul>
+            <li>var s = 'JavaScript'</li>
+            <ul style="circle">
+            <li>'Eu estou aprendendo s' // não faz interpolação</li>
+            <li>'Eu estou aprendendo' + s // usa concatenação</li>
+            <li>`Eu estou aprendendo ${s}` // usa template string</li>
+            </ul>
+            <li>Formatação de letras</li>
+            <ul style="circle">
+                <li>var.length // 
+                    quantos caracteres a string tem</li>
+                <li>var.toUpperCase() // tudo para 'MAIÚCULAS'</li>
+                <li>var.LowerCase() // tudo para 'minúsculas'</li>    
+            </ul>
+            <li>Formatação de números</li>
+            <ul style="circle">
+                <li>var.toFixed(2) //para adicionar duas casas decimais no final do número.</li>
+                <li>var.toFixed(2).replace('.',',') // para trocar o ponto por vírgula.</li>
+                <li>var.toLocaleString('pt-br', {style: '<abbr title="Valor monetário">currency</abbr>' currency: 'BRL'}) </li>
+            </ul>
+        </ul>
+    </p>
+    <h1>Operadores</h1>
+    <p>Os operadores que iremos estudar são os:</p>
+    <ol>
+        <li>Aritiméricos</li>
+        <ul>
+            <li>+ = soma    ex: 5+2= 7</li>
+            <li>- = subtração   ex: 5-2= 3</li>
+            <li>* = mutiplucação    ex:   5*2= 10</li>
+            <li>/ = divisão ex: 5/2= 2,5</li>
+            <li>** = potência 5**2 é o mesmo que 5²= 25</li>
+        </ul>
+        <li>Atribuição</li>
+        <li>Relacionais</li>
+        <ul>
+            <li>> = maior</li>
+            <li>< = menor</li>
+            <li>>= = maior igual</li>
+            <li>> = menor igual</li>
+            <li>== = igual</li>
+            <li>=! = diferente</li>
+        </ul>
+        <li>Lógicos</li>
+        <li>Ternário</li>
+    </ol>
+</body>
+</html>
