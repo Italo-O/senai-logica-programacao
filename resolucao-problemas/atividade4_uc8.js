@@ -1,6 +1,5 @@
-var idade = 25
 var palestrantes = ['Bil', 'FidoBil', 'MulherdoBil'];
-
+var idade = 23
 
 if(idade>=18){
     console.log("Selecione o palestrante:")
